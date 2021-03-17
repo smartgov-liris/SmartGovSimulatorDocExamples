@@ -1,11 +1,6 @@
-Welcome to the SmartGovSimulator wiki.
 
-The SmartGovSimulator represents the generic part of SmartGov, that can be used to implement urban problems or any other graph based multi-agent problem.
+This is a developer documentation that explain how to create a new instance of the [SmartGovSimulator](https://github.com/smartgov-liris/SmartGovSimulator) simulation.
 
-This is a developer documentation, that will guide you through the simulator structure and explain how to implement nodes, arcs, agents and behaviors at different levels.
-
-All the examples and code snippets mentioned in this wiki have been implemented and are
-[available on GitHub](https://github.com/smartgov-liris/SmartGovSimulatorDocExamples).
 
 # Table Of Contents
 1. [Get Started](Get-Started.md)
