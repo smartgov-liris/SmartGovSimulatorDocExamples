@@ -51,4 +51,4 @@ refreshed with new origin / destination at any time, even if the agent has not
 reached its destination yet : those mechanisms should be detailed in the
 concrete behavior implementation.
 
-Now that you should be familiar with the core concept of the simulation, you can go to the [next section](Create-a-SmartGov-project) to learn how to create your first SmartGov project.
+Now that you should be familiar with the core concept of the simulation, you can go to the [next section](Create-a-SmartGov-project.md) to learn how to create your first SmartGov project.

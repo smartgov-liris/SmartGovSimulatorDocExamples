@@ -1,13 +1,13 @@
 In this part, we will see how to instantiate nodes and arcs in a geographical coordinate system.
 
 For the sake of simplicity and because basic behaviour mechanisms have already
-been implemented in [a previous section](Create-Agents), we will use a simpler
+been implemented in [a previous section](Create-Agents.md), we will use a simpler
 graph to illustrate our current problem : 
 
 ![Geographical Graph](geoGraph.png)
 
 The goal will be to represent those nodes using longitude / latitude coordinates. 
-Next, we will also see how we can make agents move in this new graph, **without modifying our original** [_shuttle behavior_](Create-Agents).
+Next, we will also see how we can make agents move in this new graph, **without modifying our original** [_shuttle behavior_](Create-Agents.md).
 
 # Create a new Scenario
 
@@ -36,7 +36,7 @@ public class GeoScenario extends Scenario {
 }
 ```
 
-And register it in the [previously created](Create-a-SmartGov-project#register-the-scenario) `TestContext` as follow : 
+And register it in the [previously created](Create-a-SmartGov-project.md#register-the-scenario) `TestContext` as follow : 
 ```java
 public class TestContext extends SmartGovContext {
 
@@ -59,11 +59,11 @@ public class TestContext extends SmartGovContext {
 }
 ```
 
-Don't forget to modify your [configuration input file](Create-a-SmartGov-project#configuration-file) as follow:
+Don't forget to modify your [configuration input file](Create-a-SmartGov-project.md#configuration-file) as follow:
 ```
 scenario=GeoScenario
 ```
-And eventually [launch your app](Running-simulations#run-a-simulation) to be sure that the right scenario is loaded.
+And eventually [launch your app](Running-simulations.md#run-a-simulation) to be sure that the right scenario is loaded.
 
 # Create nodes
 

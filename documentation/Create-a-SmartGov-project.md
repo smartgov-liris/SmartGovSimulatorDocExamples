@@ -1,6 +1,6 @@
 # Create a SmartGov project
 
-This section assumes that you have already set up your Gradle project, and installed the SmartGovSimulator dependency. Else, check [this section](Get-Started).
+This section assumes that you have already set up your Gradle project, and installed the SmartGovSimulator dependency. Else, check [this section](Get-Started.md).
 
 ## Table Of Contents
 1. [Create a Scenario](#create-a-scenario)
@@ -91,7 +91,7 @@ You can now run your Java app from this main function, and you should obtain an 
 
 If you do so, you have now built your first SmartGov project! However, it doesn't do much yet.
 
-To learn how to instantiate a simple graph, you can go to the [next section](Simple-Graph).
+To learn how to instantiate a simple graph, you can go to the [next section](Simple-Graph.md).
 
 ***
 

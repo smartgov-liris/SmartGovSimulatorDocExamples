@@ -14,7 +14,7 @@ implement some behaviors.
 
 ## Example
 
-Let's create agents that move in the graph below, that has been implemented in the [previous section](Simple-Graph) : 
+Let's create agents that move in the graph below, that has been implemented in the [previous section](Simple-Graph.md) : 
 
 ![Simple Graph Example](simpleGraph.png)
 
@@ -89,7 +89,7 @@ Create a new `ShuttleBehavior` class.
 ### Constructor
 
 For now, let's just build a constructor that take our `TestContext` (created in
-[a previous section](Create-a-SmartGov-project) and our `ShuttleBody` as
+[a previous section](Create-a-SmartGov-project.md) and our `ShuttleBody` as
 arguments.
 
 `node1` and `node2` are the nodes between which our shuttle will do round
@@ -189,7 +189,7 @@ And that's all for the `ShuttleAgent` class!
 
 Now, let's see how we can implement agents so that they will be added to our context.
 
-To do so, we are going to edit the `TestScenario` class, created in [a previous section](Create-a-SmartGov-project#create-a-scenario).
+To do so, we are going to edit the `TestScenario` class, created in [a previous section](Create-a-SmartGov-project.md#create-a-scenario).
 
 To add agents to our context, let's implement the [buildAgents]() function.
 ```java
@@ -233,7 +233,7 @@ To add agents to our context, let's implement the [buildAgents]() function.
 	}
 ```
 
-Now, [run your application again](Create-a-SmartGov-project#instantiate-smartgov) and you should see something like : 
+Now, [run your application again](Create-a-SmartGov-project.md#instantiate-smartgov) and you should see something like : 
 ```
 07:56:25.574 [main] INFO  org.liris.smartgov.simulator.SmartGov - Loading config from ./testConfig.properties
 07:56:25.577 [main] INFO  org.liris.smartgov.simulator.SmartGov - Starting SmartGov
@@ -247,4 +247,4 @@ Now, [run your application again](Create-a-SmartGov-project#instantiate-smartgov
 
 what shows that our two agents are now created by the scenarion.
 
-You can now go to the [next section](Running-Simulations) to learn how to run simulations and monitor the shuttles behaviours.
+You can now go to the [next section](Running-simulations.md) to learn how to run simulations and monitor the shuttles behaviours.

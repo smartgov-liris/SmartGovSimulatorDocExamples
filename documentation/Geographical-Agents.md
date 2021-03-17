@@ -1,8 +1,8 @@
-Now that we have a [newly created geographical graph](Geographical-Graph), let's see how we can make agent move into it in a realistic way.
+Now that we have a [newly created geographical graph](Geographical-Graph.md), let's see how we can make agent move into it in a realistic way.
 
 ![Geographical Graph](geoGraph.png)
 
-To do so, we will use, **as is**, the previously implemented [ShuttleBehavior](Create-Agents#shuttlebehavior). Actually, because the description of such a behaviour does not depend on the nature of the nodes, it was important to make it natively usable with any kind of nodes.
+To do so, we will use, **as is**, the previously implemented [ShuttleBehavior](Create-Agents.md#shuttle-behavior). Actually, because the description of such a behaviour does not depend on the nature of the nodes, it was important to make it natively usable with any kind of nodes.
 
 
 Our `buildAgents` function will use the following provided classes : 
@@ -42,4 +42,4 @@ So, for now, let's build one agent, that makes round-trips between nodes 1 and 3
 	}
 ```
 
-You can now [run a simulation](Running-simulations#run-a-simulation) to ensure everything is ok.
+You can now [run a simulation](Running-simulations.md#run-a-simulation) to ensure everything is ok.

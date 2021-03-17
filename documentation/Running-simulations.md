@@ -1,8 +1,8 @@
 # Running simulations
 
 Until now, you should be able to [instantiate a SmartGov
-instance](Create-a-SmartGov-project) that loads a `Scenario` with Nodes, Arcs
-and Agents as explained in the [previous sections](Simple-Graph).
+instance](Create-a-SmartGov-project.md) that loads a `Scenario` with Nodes, Arcs
+and Agents as explained in the [previous sections](Simple-Graph.md).
 
 Now that we have agents that can *live*, we will see how to run a simulation.
 

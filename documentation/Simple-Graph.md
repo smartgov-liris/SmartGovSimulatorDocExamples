@@ -22,7 +22,7 @@ following graph.
 More powerful methods are also defined to load a graph from OSM using a JSON
 input file, but this will be describe in a next section.
 
-> This example assumes that you have successfully created a basic SmartGov project. Else, see [this section](Create-a-SmartGov-project).
+> This example assumes that you have successfully created a basic SmartGov project. Else, see [this section](Create-a-SmartGov-project.md).
 
 ## Table Of Content
 1. [The Node class](#the-node-class)
@@ -43,7 +43,7 @@ reference](https://smartgov-liris.github.io/SmartGovSimulator/org/liris/smartgov
 ## Nodes Instantiation
 
 To create Nodes, you can override the `buildNodes` function as follow in the
-[TestScenario](Create-a-SmartGov-project#create-a-scenario) :
+[TestScenario](Create-a-SmartGov-project.md#create-a-scenario) :
 
 ```java
 	@Override
@@ -122,6 +122,6 @@ Now, run your app, and you should obtain the following output :
 ```
 
 If everything is fine until there, you can now go to the [next
-section](Create-Agents) to learn how to create agents and implement a basic
+section](Create-Agents.md) to learn how to create agents and implement a basic
 behaviour.
 
